@@ -1,0 +1,1046 @@
+.loansMainMost {
+    width: 100vw;
+    height: auto;
+    min-height: 90vh;
+    background: url("../Anime\ Img/servicesBanner.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: rgb(61, 60, 60);
+    background-blend-mode: multiply;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.loansMain {
+    width: 100%;
+    height: auto;
+    min-height: 90vh;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.dflexlol {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loansSubFirst {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 15px;
+    margin: auto 15px;
+}
+
+.loansSubSecond {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto 15px;
+}
+
+.loansSubFirst h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.loansSubFirst h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.loansSubSecond form {
+    width: 95%;
+    height: 90%;
+    /* min-height: 60vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    /* background-color: white; */
+    background-color: #ffffff;
+    /* color: white; */
+    color: black;
+    position: relative;
+    bottom: -2vh;
+    border-radius: 15px;
+}
+
+.loansSubSecond form div {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.loansSubSecond form h6 {
+    letter-spacing: -0.5px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.loansSubSecond form input {
+    width: 45%;
+    margin: 5px auto;
+    padding: 5px;
+    padding-left: 9px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 9px;
+}
+
+.loansSubSecond form select {
+    width: 45%;
+    margin: 5px auto;
+    padding: 5px;
+    padding-left: 9px;
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+    border-radius: 9px;
+}
+
+/* Radio Form */
+
+.radioContact {
+    width: 50% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+/* input[type=radio]#Yellow {
+    accent-color: transparent;
+} */
+
+input[type='radio']:checked:after {
+    width: 14px;
+    height: 14px;
+    border-radius: 15px;
+    top: 5px;
+    left: -1px;
+    position: relative;
+    background-color: #ffc107;
+    content: "";
+    display: inline-block;
+    visibility: visible;
+    border: 4px solid rgb(65, 65, 65);
+}
+
+/* Radio ends */
+
+.submitBtn {
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    border: 2px solid rgb(44, 43, 43);
+    color: white;
+    margin: 10px auto;
+    background-color: rgb(44, 43, 43);
+    transition: 1s;
+    border-radius: 5px;
+    outline: none;
+}
+
+.submitBtn:hover {
+    background: inherit;
+    color: rgb(44, 43, 43);
+    font-weight: bolder;
+}
+
+.loansPart2Main {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loansPart2 {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.loansPart2Sub {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    top: 20px;
+    margin-top: 20px;
+}
+
+.loansPart2Sub div {
+    width: 49%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+
+.loansPart2Subimg {
+    width: 49%;
+    height: auto;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.mainBgImg {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.loansPart2Sub div p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 2px 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.loansPara {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.LoansCalc {
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f7fb;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.LoansCalcSub {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    /* min-height: 70vh; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.LoansCalc1 {
+    width: 30%;
+    height: auto;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.LoansCalc2 {
+    width: 30%;
+    height: auto;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.LoansCalc3 {
+    width: 30%;
+    height: auto;
+    min-height: 400px;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    padding: 10px;
+    /* background-color: #0251aa; */
+    /* background-color: #ffc107; */
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.LoansCalc3 h6 {
+    text-align: center;
+}
+
+.loanCalc1Sub {
+    width: 100%;
+    height: auto;
+    min-height: 90px;
+}
+
+.loanCalc1Sub span {
+    font-size: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.loanCalc1Sub center div {
+    width: 100%;
+    background-color: #ffc107;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.loanCalc1Sub center div input {
+    width: 85%;
+    height: auto;
+    padding: 10px;
+}
+
+.loanCalc1Sub center div i {
+    margin: 1px auto;
+    font-size: 1.3rem;
+    color: #0251aa;
+}
+
+.LoansCalc2 div {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.LoansCalc2 div span {
+    font-size: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.loansProcessMain {
+    margin-top: 20px;
+    background-color: #ffffff;
+    width: 100vw;
+    height: auto;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loansProcessMain h5 {
+    color: #ffc107;
+    font-size: 30px;
+    background-color: #0251aa;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: 2px solid black;
+    border-bottom: none;
+    position: relative;
+    bottom: -35px;
+}
+
+.loansProcessMain h1 {
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 12px;
+    background-color: hsl(45, 95%, 59%);
+    color: black;
+}
+
+.loanProcess {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* EDU starts */
+
+.loansProcessEdu {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.loansProcessEdu ul {
+    width: 90%;
+    height: auto;
+}
+
+.loansProcessEdu ul li {
+    margin: 2px auto;
+}
+
+.loansProcessEduul {
+    list-style: none;
+    /* Remove default bullets */
+}
+
+.loansProcessEduul li::before {
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: rgb(207, 157, 30);
+    /* Change the color */
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    /* Also needed for space (tweak if needed) */
+}
+
+/* EDU complete */
+
+.loanProcess div {
+    width: 50%;
+    padding: 10px 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.loanProcess div p {
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: 600; */
+}
+
+.loanProcesstable {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.loanProcesstable tr {
+    padding: 5px;
+    margin: 10px !important;
+    border: 2px solid rgba(196, 196, 196, 0.566);
+    width: 100%;
+    height: auto;
+    min-height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: rgb(46, 46, 46);
+    background-color: rgba(219, 217, 217, 0.566);
+    transition: 5s;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+.loanProcesstable tr:hover {
+    top: -10px;
+}
+
+.loanProcesstable tr th {
+    width: 5%;
+    height: auto;
+}
+
+.loanProcesstable tr td {
+    width: 95%;
+    height: auto;
+}
+
+.eligibilityLoansMain {
+    width: 100vw;
+    height: auto;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.eligibilityLoans {
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    display: flex;
+}
+
+.centerEligi {
+    width: 95vw;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #f1f7fb;
+    color: black;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.centerEligi h5 {
+    margin-top: 20px !important;
+    color: #ffc107;
+}
+
+.centerEligi h2 {
+    margin-top: 20px !important;
+    color: #0251aa;
+}
+
+/* .centerEligi p {
+    color: rgb(0, 0, 0) !important;
+} */
+
+.eligibilityDiv {
+    width: 300px;
+    height: auto;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: auto 10px;
+    padding: 50px 10px;
+    /* border: 1px solid red; */
+}
+
+.eligibilityDiv h4 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.eligibilityDiv p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+.eligibilityDiv center img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.eligibilityTable {
+    width: 100vw;
+    max-width: 1200px;
+    height: auto;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f7fb;
+    color: rgb(0, 0, 0);
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0 auto;
+}
+
+/* interestRates */
+.interestRatestd1 {
+    background: #ffc107 !important;
+    background-color: #f5d020;
+    background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
+    color: white;
+    border: 5px solid #f1f7fb !important;
+}
+
+.interestRatestd2 {
+    background: #2365b1 !important;
+    background: rgb(46, 49, 146);
+    /* background: linear-gradient(60deg, rgba(46, 49, 146, 1) 14%, rgba(41, 171, 226, 1) 72%, rgba(0, 113, 188, 1) 90%) !important; */
+    background: linear-gradient(193deg, rgba(46, 49, 146, 1) 14%, rgba(41, 171, 226, 1) 72%, rgba(0, 113, 188, 1) 90%) !important;
+    color: white;
+    border: 5px solid #f1f7fb !important;
+}
+
+.tableEligi {
+    width: 100%;
+    height: auto;
+    max-width: 780px;
+    margin: 30px auto;
+}
+
+.tableEligiCarLoans {
+    width: 90vw !important;
+    height: auto;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+p {
+    color: rgb(124, 123, 123) !important;
+}
+
+.benefitsLoans {
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefitsLoans h5 {
+    color: #ffc107;
+    font-size: 30px;
+    background-color: #0251aa;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: 2px solid black;
+    border-bottom: none;
+    position: relative;
+    bottom: -35px;
+    width: 250px !important;
+}
+
+.benefitsLoans h2 {
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 12px;
+    background-color: hsl(45, 95%, 59%);
+    color: black;
+    width: 90%;
+    max-width: 1200px;
+    margin: 25px 10px;
+}
+
+.benefitsMain {
+    width: 100%;
+    max-width: 1200px;
+    height: 1005;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.benefitsSub {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.benefitsSub div {
+    width: 30%;
+    height: auto;
+    min-height: 250px;
+    border: 1px solid rgba(110, 109, 109, 0.301);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 1.5s;
+}
+
+.benefitsSub div img {
+    width: 50%;
+}
+
+.benefitsSub div p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    padding: 10px;
+    transition: 0.8s;
+    color: black !important;
+    font-weight: 800;
+}
+
+.benefitsSub div:hover {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.questionLoans {
+    width: 100vw;
+    height: auto;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.questionLoansSub {
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+}
+
+/* .questionLoansSub {
+    width: 100%;
+    height: auto;
+    min-height: 40vh;
+} */
+
+.card {
+    margin-top: 20px !important;
+    background-color: #ffffff !important;
+    border-radius: 20px !important;
+    color: #ffc107 !important;
+    border: none !important;
+    /* border: 1.2px solid #0251aa !important; */
+}
+
+.card:visited {
+    background-color: #ffc107 !important;
+}
+
+.card-header {
+    background-color: transparent !important;
+    background: transparent !important;
+    border-bottom: none !important;
+}
+
+.collapse {
+    background-color: #ffffff !important;
+    border: 1.2px solid #0251aa;
+    /* border-radius: 0px 0px 50px 50px; */
+    border-radius: 0px 0px 20px 20px;
+}
+
+.collapse div {
+    /* border-left: 2px dotted grey;
+    border-right: 2px dotted grey; */
+    /* padding-left: 30px !important; */
+}
+
+.card-headerrr {
+    border-radius: 20px 20px 0px 0px !important;
+    background-color: #0251aa !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.servicesLogoNav {
+    width: 350px;
+    height: auto;
+}
+
+
+@media screen and (max-width: 600px) {
+    .servicesLogoNav {
+        width: 50vw;
+    }
+}
+
+/* .card-header:active{
+    color: #0251aa !important;
+    background-color: #ffc107 !important;
+} */
+
+/* .card-headerrr:target {
+} */
+
+.card-headerrr h5 button {
+    color: #ffc107 !important;
+    font-family: "Montserrat";
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.13rem;
+}
+
+.rupeeSymbol {
+    width: 30px;
+    height: 30px;
+    color: #0251aa;
+    background-color: #ffc107;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+}
+
+.btn {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* ffc107 */
+/* 0251aa */
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+    .LoansCalcSub {
+        flex-direction: column;
+    }
+
+    .LoansCalc1 {
+        width: 80%;
+        margin: 2vh auto;
+    }
+
+    .LoansCalc2 {
+        width: 80%;
+        margin: 2vh auto;
+    }
+
+    .LoansCalc3 {
+        width: 80%;
+        margin: 2vh auto;
+    }
+
+    .loansPart2 {
+        width: 95%;
+    }
+
+    .loanProcess {
+        width: 97%;
+    }
+
+    .loansProcessMain {
+        padding: 10px;
+    }
+
+    .tableEligi {
+        width: 85%;
+    }
+
+    .eligibilityTable center {
+        width: 90%;
+        text-align: center;
+    }
+
+    .loanProcess {
+        flex-direction: column;
+    }
+
+    .loanProcess div {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .loansMain {
+        flex-direction: column;
+        min-height: 110vh;
+    }
+
+    .loansSubFirst {
+        width: 80%;
+    }
+
+    .loansSubSecond {
+        width: 80%;
+        /* z-index: 1; */
+    }
+
+    .loansPart2Sub {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .loansPart2Sub div {
+        width: 95%;
+    }
+
+    .LoansCalc3 h6 {
+        font-size: 21px !important;
+    }
+
+    .benefitsSub {
+        flex-direction: column;
+    }
+
+    .benefitsSub div {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .loansSubSecond form {
+        position: static;
+        /* bottom: 1vh; */
+    }
+}
+
+/* Range/slider */
+
+/*Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='range'] {
+        overflow: hidden;
+        width: 80px;
+        -webkit-appearance: none;
+        background-color: #ffc107;
+    }
+
+    input[type='range']::-webkit-slider-runnable-track {
+        height: 10px;
+        -webkit-appearance: none;
+        color: #13bba4;
+        margin-top: -1px;
+    }
+
+    input[type='range']::-webkit-slider-thumb {
+        width: 10px;
+        -webkit-appearance: none;
+        height: 10px;
+        cursor: ew-resize;
+        background: #0251aa;
+        box-shadow: -80px 0 0 80px #ffc107;
+    }
+
+}
+
+/** FF*/
+input[type="range"]::-moz-range-progress {
+    background-color: #0251aa;
+}
+
+input[type="range"]::-moz-range-track {
+    background-color: #ffc107;
+}
+
+/* IE*/
+input[type="range"]::-ms-fill-lower {
+    background-color: #0251aa;
+}
+
+input[type="range"]::-ms-fill-upper {
+    background-color: #ffc107;
+}
+
+.ITRfiling {
+    width: 90%;
+    max-width: 780px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ITRfiling h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 20px auto;
+}
+
+.ITRfiling ul {
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px auto;
+}
+
+.ITRfiling ol {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ITRfiling p {
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px auto;
+}
+
+/* Additional Classes */
+
+.colorYellow {
+    color: #ffc107;
+}
+
+.termsNpolicies {
+    color: #ffc107;
+}
+
+.termsNpolicies:hover {
+    text-decoration: none;
+}
+
+/* aa9f02 */

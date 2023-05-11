@@ -1,0 +1,209 @@
+.footerDiv {
+    width: 100vw;
+    height: auto;
+    min-height: 60vh;
+    background: rgb(36, 36, 36);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.footerMain {
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left !important;
+    text-align: left !important;
+}
+
+.footerMainSub {
+    color: white;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    text-align: left !important;
+    margin-top: 40px;
+}
+
+.footerMainSub a {
+    color: white;
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-align: left !important;
+}
+
+.footerMainSub a:hover {
+    color: white;
+    font-weight: 400;
+}
+
+.socialsDiv {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footerLast {
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center !important;
+    position: relative;
+    top: 20px;
+}
+
+.footerServices {
+    width: 50% !important;
+}
+
+.firstTwoCombined {
+    width: 70% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboveSocialDiv {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboveSocialDiv h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.aboveSocialDiv h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    width: 100%;
+}
+
+.socialsDivFoot {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 30px;
+}
+
+.socialsDivFoot h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    /* position: relative;
+    top: -30px; */
+}
+
+.socialsDivFoot a i {
+    font-size: 2rem;
+}
+
+#instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: 0.5s ease-in-out;
+}
+
+#facebook {
+    color: #3b5998;
+    transition: 0.5s ease-in-out;
+    background-color: white;
+    border-radius: 100%;
+}
+
+#twitter {
+    color: red;
+    transition: 0.5s ease-in-out;
+    background-size: 5px;
+}
+
+.copyRight {
+    color: white;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.copyRightDiv {
+    width: 100%;
+    min-height: 20px;
+    background: rgb(36, 36, 36);
+    height: auto;
+    padding: 15px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.extra {
+    width: 100vw;
+    height: 20px;
+    background: rgb(36, 36, 36);
+}
+
+@media screen and (max-width:800px) {
+    .footerMain {
+        flex-direction: column;
+    }
+
+    .firstTwoCombined {
+        width: 100% !important;
+    }
+
+    .footerLast {
+        width: 100% !important;
+        flex-direction: row;
+        margin-bottom: 100px;
+    }
+
+    .aboveSocialDiv{
+        margin-top: 50px;
+    }
+
+    .copyRightDiv{
+        flex-direction:column-reverse;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .footerLast {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .footerServices{
+        position: relative;
+        right: -50px;
+    }
+}

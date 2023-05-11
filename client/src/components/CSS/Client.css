@@ -1,0 +1,133 @@
+.logoutDash {
+    width: 30vw;
+    max-width: 200px;
+    height: auto;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: white;
+    background: #0c29be;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    right: 10px;
+}
+
+.logoutDash:hover {
+    color: #0c29be;
+    background: #ffffff;
+    border: 3px solid #0c29be;
+    text-decoration: none;
+}
+
+.dashLogo {
+    width: 225px;
+    height: auto;
+    margin: 10px;
+}
+
+.dashboardSub {
+    width: 100vw;
+    max-width: 1000px;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dashboardSub div {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid #0c29be;
+    color: #ffc107;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-bottom: 2vh;
+}
+
+@media screen and (max-width:1000px) {
+    .dashboardSub {
+        flex-direction: column;
+    }
+}
+
+.userDataMain {
+    width: 100vw;
+    height: 85vh;
+    max-width: 1200px;
+    margin-top: 20vh;
+    overflow-x: auto;
+    overflow-y: auto;
+    border: 2px solid rgb(195, 195, 195);
+}
+
+.dashtable {
+    width: 100%;
+    max-width: 1200px !important;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    overflow: hidden !important;
+}
+
+.dashth,
+.dashtd {
+    text-align: left;
+    padding: 8px;
+}
+
+.notifiDiv {
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    background-color: #b3d0e0;
+    padding: 10px;
+    z-index: 10;
+}
+
+.notifiDiv input {
+    width: 90%;
+    height: auto;
+    padding: 5px;
+    margin: 10px;
+}
+
+.notifiDiv textarea {
+    width: 90%;
+    height: auto;
+    padding: 5px;
+    margin: 10px;
+}
+
+.notifyBtn {
+    font-size: 2rem;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.notifyX{
+    float: left;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}

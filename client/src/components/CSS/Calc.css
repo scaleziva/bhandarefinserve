@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.emiCalc {
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url("../bgcalc.png"); */
+    background: url("../bgcalc.png") no-repeat center center;
+    background: url("../bgcalc.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+.emiCalc div {
+    width: 95%;
+    max-width: 780px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; 
+    box-shadow: rgba(0, 0, 0, 0.45) -20px 0px 20px -20px; 
+    box-shadow: rgba(0, 0, 0, 0.45) 0px -20px 20px -20px; 
+    box-shadow: rgba(0, 0, 0, 0.45) 20px 0px 20px -20px;  */
+    border-radius: 5px;
+    height: 80vh;
+    padding: 10px;
+}
+
+.emiCalc div input {
+    width: 270px;
+    height: auto;
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid#1a235c;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.emiCalc div button {
+    width: 150px;
+    height: auto;
+    padding: 20px;
+    border: white;
+    color: white;
+    border-radius: 10px;
+    background-color: #1a235c;
+    position: relative;
+    bottom: -30px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.emiCalc div button:hover {
+    background-color: #404b93;
+}
+
+.emiCalc div p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 3px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.emiCalc div h2 {
+    font-size: 2.5rem;
+    font-family: 'Orbitron', sans-serif;
+    position: relative;
+    top: -50px;
+}
+
+@keyframes shadowFight {
+    0% {
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    }
+
+    30% {
+        box-shadow: rgba(0, 0, 0, 0.45) -20px 0px 20px -20px;
+    }
+
+    60% {
+        box-shadow: rgba(0, 0, 0, 0.45) 0px -20px 20px -20px;
+    }
+
+    90% {
+        box-shadow: rgba(0, 0, 0, 0.45) 20px 0px 20px -20px;
+    }
+
+    100% {
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    }
+}
+
+@-o-keyframes shadowFight {
+    0% {
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    }
+
+    30% {
+        box-shadow: rgba(0, 0, 0, 0.45) -20px 0px 20px -20px;
+    }
+
+    60% {
+        box-shadow: rgba(0, 0, 0, 0.45) 0px -20px 20px -20px;
+    }
+
+    90% {
+        box-shadow: rgba(0, 0, 0, 0.45) 20px 0px 20px -20px;
+    }
+
+    100% {
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    }
+}
+
+@-moz-keyframes shadowFight {
+    0% {
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    }
+
+    30% {
+        box-shadow: rgba(0, 0, 0, 0.45) -20px 0px 20px -20px;
+    }
+
+    60% {
+        box-shadow: rgba(0, 0, 0, 0.45) 0px -20px 20px -20px;
+    }
+
+    90% {
+        box-shadow: rgba(0, 0, 0, 0.45) 20px 0px 20px -20px;
+    }
+
+    100% {
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    }
+}
+
+@-webkit-keyframes shadowFight {
+    0% {
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    }
+
+    30% {
+        box-shadow: rgba(0, 0, 0, 0.45) -20px 0px 20px -20px;
+    }
+
+    60% {
+        box-shadow: rgba(0, 0, 0, 0.45) 0px -20px 20px -20px;
+    }
+
+    90% {
+        box-shadow: rgba(0, 0, 0, 0.45) 20px 0px 20px -20px;
+    }
+
+    100% {
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    }
+}
+
+.emiCalc div {
+    -webkit-animation: shadowFight 16s infinite;
+    -moz-animation: shadowFight 16s infinite;
+    -o-animation: shadowFight 16s infinite;
+    animation: shadowFight 16s infinite;
+}
+
+.calcView{
+    width: 350px !important;
+    height: auto;
+    background-color: black;
+    padding: 15px !important;
+    position: relative;
+    top: -20px;
+    color: #20C20E ;
+}
