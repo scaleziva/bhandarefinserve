@@ -1014,7 +1014,7 @@ body {
     height: 60px;
     border-radius: 50%;
     cursor: pointer;
-    z-index: 99;
+    z-index: 9999;
 }
 
 .upButton{
@@ -1025,9 +1025,21 @@ body {
     height: 60px;
     border-radius: 50%;
     cursor: pointer;
-    z-index: 99;
+    z-index: 9999;
     background: white;
     border: 3px solid black;
+}
+
+@media screen and (max-width: 700px) {
+    .whatsappBtn {
+        bottom: 20px;
+        left: 20px;
+    }
+    
+    .upButton{
+        bottom: 100px;
+        left: 20px;
+    }
 }
 
 .dflexlol {
@@ -1116,22 +1128,19 @@ body {
 
     .sliderDivBeside {
         width: 95%;
-        flex-direction: row;
+        flex-direction: column;
         min-height: auto;
         margin-top: 50px;
         justify-content: space-evenly;
     }
 
     .besideDivFirst {
-        width: 45%;
-        height: 30vh;
-        margin-bottom: 0px;
-        margin-left: 0px;
+        display: none;
     }
 
     .besideDivSecond {
-        width: 45%;
-        height: 30vh;
+        width: 90%;
+        height: 40vh;
         overflow-y: hidden;
         overflow-x: hidden;
         margin-left: 0px;
